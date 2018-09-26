@@ -1,4 +1,4 @@
 # BackupScripts
 Project with multiple scripts to backup different products
 
-Requires functions located in my ModularFuctions repo 
+Requires functions located in my ModularFunctions repo
