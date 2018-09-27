@@ -15,6 +15,7 @@ Twitter: @ManuelM_IT
     Github: https://www.github.com/manuelmartinez-it
 .NOTES
     Update the appropriate local variables for your environment
+    REQUIRES: External Functions located on my GitHub in ModularFunctions/PowerShell
     User must be a part of ‘SystemConfiguration.Administrators’ SSO Group in vCenter
     If you receive 'Unable to authorize user' message restart the following service in the appliance 'applmgmt (VMware Appliance Management Service)'
 .EXAMPLE
@@ -24,7 +25,7 @@ Twitter: @ManuelM_IT
 
 #region Call External Fuctions
 
-    # PowerShell HTML Table Email Formatting Function
+    # External Functions needed to run script
     . C:\Scripts\Functions\fn_Set-PsEmailFormatting.ps1
     . C:\Scripts\Functions\fn_Remove-OldFolders.ps1
     Import-Module VMware.VimAutomation.Cis.Core
